@@ -3,6 +3,5 @@ describe('My First Test', () => {
     cy.visit('https://example.cypress.io');
     cy.contains('type').click();
     cy.url().should('include', '/commands/actions');
-    cy.visit('https://youtube.com')
   });
 });
